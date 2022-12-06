@@ -1,8 +1,35 @@
+import 'package:testing/src/Cat.dart';
 import 'package:testing/src/Student.dart';
+import 'package:testing/src/animal.dart';
+import 'package:testing/src/atm.dart';
+import 'package:testing/src/company.dart';
 import 'package:testing/src/count.dart';
+import 'package:testing/src/dart_developer.dart';
+import 'package:testing/src/dog.dart';
+import 'package:testing/src/flutter_developer.dart';
+import 'package:testing/src/parrot.dart';
+import 'package:testing/src/parrot_kid.dart';
 
 void main() {
-  var juniorStudent = Student("Eslam", 26);
+
+
+
+
+
+
+var dartDeveloper = DartDeveloper();
+dartDeveloper.benefits();
+dartDeveloper.daysOff();
+dartDeveloper.workingHours();
+dartDeveloper.netSalary();
+
+
+var flutterDeveloper = FlutterDeveloper();
+flutterDeveloper.benefits();
+flutterDeveloper.daysOff();
+flutterDeveloper.workingHours();
+flutterDeveloper.netSalary();
+
 }
 
 //
@@ -57,3 +84,9 @@ void main() {
 // print(student);
 // print(student.keys);
 // print(student.values);
+// var smallCat = Cat();
+// smallCat.eating();
+//
+// var smallDog = Dog();
+// smallDog.eating();
+// smallDog.eating();
