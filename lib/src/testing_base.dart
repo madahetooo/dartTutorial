@@ -16,11 +16,14 @@ void main() {
   int res;
 
   try {
-    print(x/y);
-    // res = x / y;
+    res = x ~/ y;
   }
   catch(e) {
     print("Cannot Divide by zero $e");
+  }
+  finally {
+    // code that should always execute; irrespective of the exception
+    print("This block will always executed");
   }
 
 }
