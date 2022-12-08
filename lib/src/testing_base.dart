@@ -1,33 +1,25 @@
-import 'package:testing/src/Cat.dart';
-import 'package:testing/src/Student.dart';
-import 'package:testing/src/animal.dart';
-import 'package:testing/src/atm.dart';
-import 'package:testing/src/company.dart';
-import 'package:testing/src/count.dart';
-import 'package:testing/src/dart_developer.dart';
-import 'package:testing/src/dog.dart';
-import 'package:testing/src/flutter_developer.dart';
-import 'package:testing/src/parrot.dart';
-import 'package:testing/src/parrot_kid.dart';
+
 
 void main() {
+
   int x = 12;
-  int y = 0;
+  int y = 2;
   int res;
 
   try {
-    res = x ~/ y;
-    // test_age(-2);
-
+    // res = x ~/ y;
+    test_age(-2);
+ //   print(res);
   }
   catch(e) {
-    // print('Age cannot be negative');
-    print("Cannot Divide by zero $e");
+    print('Age cannot be negative');
+    // print("Cannot Divide by zero $e");
   }
-  finally {
-    // code that should always execute; irrespective of the exception
-    print("This block will always executed");
+  finally{
+    print("This will be always executed");
   }
+
+
 
 }
 
