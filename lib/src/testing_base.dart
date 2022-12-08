@@ -11,26 +11,34 @@ import 'package:testing/src/parrot.dart';
 import 'package:testing/src/parrot_kid.dart';
 
 void main() {
+  int x = 12;
+  int y = 0;
+  int res;
 
-
-
-
-
-
-var dartDeveloper = DartDeveloper();
-dartDeveloper.benefits();
-dartDeveloper.daysOff();
-dartDeveloper.workingHours();
-dartDeveloper.netSalary();
-
-
-var flutterDeveloper = FlutterDeveloper();
-flutterDeveloper.benefits();
-flutterDeveloper.daysOff();
-flutterDeveloper.workingHours();
-flutterDeveloper.netSalary();
+  try {
+    print(x/y);
+    // res = x / y;
+  }
+  catch(e) {
+    print("Cannot Divide by zero $e");
+  }
 
 }
+
+
+// var dartDeveloper = DartDeveloper();
+// dartDeveloper.benefits();
+// dartDeveloper.daysOff();
+// dartDeveloper.workingHours();
+// dartDeveloper.netSalary();
+//
+//
+// var flutterDeveloper = FlutterDeveloper();
+// flutterDeveloper.benefits();
+// flutterDeveloper.daysOff();
+// flutterDeveloper.workingHours();
+// flutterDeveloper.netSalary();
+
 
 //
 // var count = Count();
