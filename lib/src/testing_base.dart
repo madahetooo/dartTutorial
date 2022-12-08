@@ -17,8 +17,11 @@ void main() {
 
   try {
     res = x ~/ y;
+    // test_age(-2);
+
   }
   catch(e) {
+    // print('Age cannot be negative');
     print("Cannot Divide by zero $e");
   }
   finally {
@@ -26,6 +29,12 @@ void main() {
     print("This block will always executed");
   }
 
+}
+
+void test_age(int age) {
+  if (age < 0) {
+    throw new FormatException();
+  }
 }
 
 
